@@ -1,0 +1,11 @@
+.counterField {
+  position: relative;
+}
+.counterField__actions {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(3, auto);
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}

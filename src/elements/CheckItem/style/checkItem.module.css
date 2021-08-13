@@ -1,0 +1,15 @@
+.listItem {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: grey;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-content: start;
+  padding: 1rem;
+  position: relative;
+  text-transform: capitalize;
+  outline: none;
+  width: 100%;
+}

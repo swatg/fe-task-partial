@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  height: 40px;
+}
+
+.container p {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.container h6 {
+  margin: 0;
+}
+
+.toggle {
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.toggleIcon {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-0.75rem);
+}
+
+.toggleIcon_open > * {
+  transform: rotate(180deg);
+}
+
+.content {
+  background: white;
+  border-radius: 0.25rem;
+  left: 0;
+  padding-right: 50px;
+  position: absolute;
+  top: 200%;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content_open {
+  visibility: visible;
+}
